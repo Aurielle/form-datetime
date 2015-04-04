@@ -184,7 +184,7 @@
 				});
 			}
 		}
-	}
+	};
 
 	/**
 	 * Initialize form date picker plugin
