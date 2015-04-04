@@ -529,6 +529,25 @@ abstract class BaseControl extends Forms\Controls\BaseControl
 	}
 
 	/**
+ 	 * @return string
+ 	 */
+	public function getLanguage()
+	{
+		return $this->language;
+	}
+
+	/**
+	 * @param string $language
+	 * @return self
+	 */
+	public function setLanguage($language)
+	{
+		$this->language = $language;
+		return $this;
+	}
+
+
+	/**
 	 * Explode string to array using delimiter the same way as php explode do but includes delimiter in array
 	 *
 	 * @param string $del
